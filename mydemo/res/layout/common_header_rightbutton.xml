@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_layout_imagebuttonlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:padding="6dip" >
+
+    <ImageView
+        android:id="@+id/header_iv_imageview"
+        style="@style/layout_wrap_wrap"
+        android:clickable="false"
+        android:contentDescription="@string/app_name"
+        android:focusable="false"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+
+    <TextView
+        android:id="@+id/header_tv_textview"
+        style="@style/layout_wrap_wrap"
+        android:clickable="false"
+        android:contentDescription="@string/app_name"
+        android:focusable="false"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/white" />
+
+</FrameLayout>

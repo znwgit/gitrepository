@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="base_action_bar_height">48.0dip</dimen>
+    <dimen name="base_action_bar_title_size">20.0sp</dimen>
+    
+    <!-- 消息通知个数 -->
+    <dimen name="notify_count_size">9.0sp</dimen>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/camera_filter_bg" >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3.0dip"
+            android:layout_marginRight="3.0dip" >
+
+            <RelativeLayout
+                android:id="@+id/rl_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible" >
+
+                <EditText
+                    android:id="@+id/et_sendmessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40.0dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/btn_send"
+                    android:background="@drawable/border_blck_xian_999"
+                    android:maxLines="4"
+                    android:textColor="@color/hui_666"
+                    android:padding="5.0dip"
+                    android:textSize="18sp"
+                    android:textCursorDrawable="@null" />
+                <!-- "@null"作用是让光标颜色和text color一样 -->
+
+                <Button
+                    android:id="@+id/btn_send"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/selector_btn_sent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/hui_666"
+                    android:text="发送" />
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+    
+

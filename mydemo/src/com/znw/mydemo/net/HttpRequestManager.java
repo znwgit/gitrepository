@@ -1,0 +1,1 @@
+package com.znw.mydemo.net;import com.znw.mydemo.net.constants.HttpConstants;import com.znw.mydemo.net.httpclient.INet;import com.znw.mydemo.net.httpclient.impl.NetImpl;public final class HttpRequestManager implements HttpConstants {	private static INet net = null;	public static synchronized INet create() {		if (net == null)			net = new NetImpl();		return net;	}}
